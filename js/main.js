@@ -36,7 +36,7 @@ function setBgGreet() {
         hour = today.getHours();
     if (hour < 12) {
         //Morning
-        document.body.style.backgroundImage = "url('../img/morning.jpg') ";
+        document.body.style.backgroundImage = "url('../img/morning.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
