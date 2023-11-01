@@ -52,7 +52,7 @@ function setBgGreet() {
         greeting.textContent = 'Good Afternoon';
     } else {
         //Evening
-        document.body.style.backgroundImage = "url('../img/afternoon.jpg')";
+        document.body.style.backgroundImage = "url('../img/morning.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
