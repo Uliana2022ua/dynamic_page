@@ -36,7 +36,7 @@ function setBgGreet() {
         hour = today.getHours();
     if (hour < 12) {
         //Morning
-        document.body.style.backgroundImage = "url('../img/morning.jpg')";
+        document.body.style.backgroundImage = "url('./img/morning.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
@@ -45,14 +45,14 @@ function setBgGreet() {
         greeting.textContent = 'Good Morning';
     } else if (hour < 18) {
         //Afternoon
-        document.body.style.backgroundImage = "url('../img/morning.jpg')";
+        document.body.style.backgroundImage = "url('./img/afternoon.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
         greeting.textContent = 'Good Afternoon';
     } else {
         //Evening
-        document.body.style.backgroundImage = "url('../img/morning.jpg')";
+        document.body.style.backgroundImage = "url('./img/evening.jpg')";
         document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundPosition = "center";
         document.body.style.backgroundSize = "cover";
